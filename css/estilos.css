@@ -1,0 +1,176 @@
+
+body{
+    font-family: Dancing Script;
+    width: auto;
+    margin: 10px;
+}
+.header {
+    width:100%;
+    color: white;
+	border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+	background-color: #5b7989;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.Titulo{
+    width: 45%;
+    text-shadow:2px 2px 2px #02010a;
+    padding: 10px;
+}
+.Menu{
+    width: 35%;
+    font-size: 1.5em;
+    text-shadow:2px 2px 2px #02010a;
+    float: right; 
+    margin-top: 30px;
+    padding-left: 10%;
+    
+}
+nav ul li {
+    display: inline;
+}
+img{
+    display: block;
+    width: 600px;
+    height: 300px;
+    box-shadow: 2px 2px 2px #02010a;
+}
+
+.imgprincipal{
+    background: #82c3a6;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+#imagen1 img {
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 50%;
+margin: 20px;
+    margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+.imgdoble{
+    background: #d5c75f ;
+    display: flex;
+    border: 1px;
+    flex-flow: row wrap;
+}
+.imagen2{
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.imagen2:hover {
+transform: rotateY(10deg);
+-webkit-transform:rotate(10deg);
+box-shadow: 2px 2px 2px 2px #82c3a6;
+}
+
+.imagen2 img {
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 90%;
+margin: 20px;
+}
+
+.imagen3 img {
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 90%;
+margin: 20px;
+}
+.imagen3{
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.imagen3:hover {
+transform: translatey(5px);
+transform: translatex(20px);
+box-shadow: 2px 2px 2px 2px #82c3a6;
+}
+.container--flex{
+    background: #C6d5c5;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: flex;
+    width: 100%;
+   
+    flex-flow: row wrap;
+}
+.column--25{
+    margin-left: auto;
+    margin-right: auto;
+}
+@media (max-width: 900px) {   
+    #imagen1 {
+    padding: 20px;
+    }
+
+    #imagen1 img {
+    width: 90%;
+    }
+    .imagen2 img {
+    width: 90%
+    }
+
+    .imagen3 img {
+    width: 90%
+    }
+.header {
+    width:  100%;
+    margin: 0 auto; 
+    }
+    .Titulo {
+    width: 100%;
+    text-align: center;
+        
+    }
+    .Menu{
+    width: 100%;
+    text-align: center;
+    padding-left: 0px;
+    padding-bottom: 20px;
+    }
+.imgdoble{
+    width: 100%;
+    margin: 0 auto;
+    
+    }
+    .imagen1 {
+    padding: 20px;
+    width: 100%
+    }
+     .imagen2 {
+    padding: 20px;
+    width: 100%
+    }
+
+    .imagen3 {
+    padding: 20px;
+    width: 100%
+    }
+
+.container--flex{
+    width:  100%; 
+    
+    }
+    .column--25{
+    width: 100%;
+    text-align: center;
+    }
+  
+}
+
+
+
+
